@@ -55,7 +55,7 @@ Nesse projeto, você será capaz de:
   <summary><strong>🗓 Data de Entrega</strong></summary><br />
   
   * Este projeto é em grupo;
-  * São `5` dias de projeto;
+  * São `X` dias de projeto;
   * Data para entrega final do projeto: `21/09/2022 13:50`.
 
 </details>
@@ -223,9 +223,9 @@ Para duplicar, basta seguir os passos:
 
   Alguns requisitos irão pedir para que você desenvolva testes para sua aplicação. Esses testes serão avaliados através da cobertura de testes.
 
-  É possível verificar o percentual da cobertura de testes com o comando `npm run test:coverage`. 
+  É possível verificar o percentual da cobertura de testes com o comando `npm run test-coverage`. 
 
-  Você também pode executar `npm run test:coverage -- --collectCoverageFrom=caminho/da/Pagina` para verificar o percentual de cobertura de testes de cada 'Pagina'. Por exemplo, para verificar a cobertura de testes da página de `Login`, execute o comando `npm run test:coverage -- --collectCoverageFrom=src/pages/Login.js`.
+  Você também pode executar `npm run test-coverage -- --collectCoverageFrom=caminho/da/Pagina` para verificar o percentual de cobertura de testes de cada 'Pagina'. Por exemplo, para verificar a cobertura de testes da página de `Login`, execute o comando `npm run test-coverage -- --collectCoverageFrom=src/pages/Login.js`.
   </details><br />
 </details>
 
@@ -1046,6 +1046,7 @@ Criar a tela de login contendo as informações de nome e email, onde a pessoa q
   * Os elementos com os nomes das pessoas que jogaram devem possuir o atributo `data-testid` com o valor `player-name-${index}`, onde `${index}` é iniciado em zero
   * Os elementos com as pontuações das pessoas que jogaram devem possuir o atributo `data-testid` com o valor `player-score-${index}`, onde `${index}` é iniciado em zero
   * O ranking deve ser armazenado no navegador através do `localStorage`.
+  * Leia a seção [Observações técnicas](#observações-técnicas) para mais detalhes
 </details>
 
 <br /><details>
