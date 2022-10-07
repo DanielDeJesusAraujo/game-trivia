@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game-trivia/static/css/main.5a8b755c.css",
-    "main.js": "/game-trivia/static/js/main.45574ba4.js",
+    "main.js": "/game-trivia/static/js/main.63a2675f.js",
     "static/media/background-ranking-page.png": "/game-trivia/static/media/background-ranking-page.62f77f2498a7ea5cf211.png",
     "static/media/background.png": "/game-trivia/static/media/background.b6e2ce5a5bf949835f65.png",
     "static/media/backgroundFeedback.png": "/game-trivia/static/media/backgroundFeedback.be3c24a14447ec8988fb.png",
@@ -10,10 +10,10 @@
     "static/media/Vector.svg": "/game-trivia/static/media/Vector.44cdb9173b088979959fc1a09cb4f2d7.svg",
     "static/media/Polygon-4.svg": "/game-trivia/static/media/Polygon-4.56bce911b828c78cacd195d0d69369b0.svg",
     "main.5a8b755c.css.map": "/game-trivia/static/css/main.5a8b755c.css.map",
-    "main.45574ba4.js.map": "/game-trivia/static/js/main.45574ba4.js.map"
+    "main.63a2675f.js.map": "/game-trivia/static/js/main.63a2675f.js.map"
   },
   "entrypoints": [
     "static/css/main.5a8b755c.css",
-    "static/js/main.45574ba4.js"
+    "static/js/main.63a2675f.js"
   ]
 }
