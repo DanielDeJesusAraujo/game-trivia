@@ -40,7 +40,6 @@ class Settings extends Component {
 
   urlFilterTrivia = ({ id = '', difficulty = '', type = '' }) => {
     const { dispatch, token, history } = this.props;
-    console.log(token);
     const URL = `https://opentdb.com/api.php?amount=5&token=${token}${id}${difficulty}${type}`;
     dispatch(urlAction(URL));
     history.push('/game-trivia');
