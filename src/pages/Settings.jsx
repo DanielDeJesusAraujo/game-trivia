@@ -43,7 +43,7 @@ class Settings extends Component {
     console.log(token);
     const URL = `https://opentdb.com/api.php?amount=5&token=${token}${id}${difficulty}${type}`;
     dispatch(urlAction(URL));
-    history.push('/');
+    history.push('/game-trivia');
   };
 
   render() {
