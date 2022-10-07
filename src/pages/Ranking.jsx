@@ -22,7 +22,7 @@ class Ranking extends Component {
 
   handleClick = () => {
     const { history } = this.props;
-    history.push('/');
+    history.push('/game-trivia');
   };
 
   render() {

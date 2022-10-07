@@ -21,7 +21,7 @@ class Game extends Component {
     if (validationToken) {
       const { history } = this.props;
       localStorage.removeItem('token');
-      history.push('/');
+      history.push('/game-trivia');
     } else {
       this.setState({ questions: data.results });
     }

@@ -65,7 +65,7 @@ class Feedback extends Component {
             type="button"
             onClick={ this.handleClick }
             data-testid="btn-play-again"
-            name="/"
+            name="/game-trivia"
           >
             Play Again
           </ButtonStyle>
